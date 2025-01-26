@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background: #0044cc;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.home, .projects, .enquiry, .locations, .footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0033a0;
+}
+
+.enquiry form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+.enquiry form input, .enquiry form textarea, .enquiry form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.projects .project {
+    margin: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
